@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder
+name: build istoreos x86-64
 
 on:
   repository_dispatch:
