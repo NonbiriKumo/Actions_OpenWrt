@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/NonbiriKumo/istoreos
+  REPO_URL: https://github.com/istoreos/istoreos
   REPO_BRANCH: istoreos-24.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
