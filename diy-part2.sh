@@ -22,7 +22,7 @@
 ./scripts/feeds update qmodem
 ./scripts/feeds install -a -f -p qmodem
 
-echo 'CONFIG_PACKAGE_luci-app-qmodem=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-qmodem-sms=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-qmodem-mwan=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-qmodem-ttl=y' >> .config
+echo 'CONFIG_PACKAGE_luci-app-qmodem=y' >>.config
+echo 'CONFIG_PACKAGE_luci-app-qmodem-sms=y' >>.config
+echo 'CONFIG_PACKAGE_luci-app-qmodem-mwan=y' >>.config
+echo 'CONFIG_PACKAGE_luci-app-qmodem-ttl=y' >>.config
