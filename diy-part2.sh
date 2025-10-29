@@ -19,9 +19,6 @@
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
-./scripts/feeds update qmodem
-./scripts/feeds install -a -f -p qmodem
-
 echo 'CONFIG_PACKAGE_luci-app-qmodem=y' >>.config
 echo 'CONFIG_PACKAGE_luci-app-qmodem-sms=y' >>.config
 echo 'CONFIG_PACKAGE_luci-app-qmodem-mwan=y' >>.config
