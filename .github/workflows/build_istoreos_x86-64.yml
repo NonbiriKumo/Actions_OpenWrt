@@ -125,7 +125,7 @@ jobs:
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
-        mkdir -p openwrt/feeds/telephony/libs/dahdi-linux/patches
+        mkdir -p openwrt/feeds/telephony/libs/dahdi-linux
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
