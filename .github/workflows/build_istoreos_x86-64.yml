@@ -137,8 +137,6 @@ jobs:
     - name: Load custom configuration
       run: |
         [ -e files ] && mv files openwrt/files
-        mkdir -p openwrt/feeds/telephony/libs/dahdi-linux
-        [ -e patches ] && mv -r patches openwrt/feeds/telephony/libs/dahdi-linux
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         chmod +x $DIY_P2_SH
         cd openwrt
