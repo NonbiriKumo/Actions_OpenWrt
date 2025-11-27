@@ -19,7 +19,4 @@
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 
-echo 'CONFIG_PACKAGE_luci-app-qmodem=y' >>.config
-echo 'CONFIG_PACKAGE_luci-app-qmodem-sms=y' >>.config
-echo 'CONFIG_PACKAGE_luci-app-qmodem-mwan=y' >>.config
-echo 'CONFIG_PACKAGE_luci-app-qmodem-ttl=y' >>.config
+echo 'CONFIG_PACKAGE_luci-app-qmodem_next=y' >>.config
