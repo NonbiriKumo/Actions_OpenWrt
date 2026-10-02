@@ -11,4 +11,4 @@ src-git oaf https://github.com/jjm2473/OpenAppFilter.git^47623f71cc477ef3a6e2dd2
 src-git linkease_nas https://github.com/linkease/nas-packages.git^8ad5a844faf397232e2b82686323900c0334a16d
 src-git linkease_nas_luci https://github.com/linkease/nas-packages-luci.git^1500469a3ada68cf2f3dd61b30ec0bfa70e6ef74
 src-git jjm2473_apps https://github.com/jjm2473/openwrt-apps.git^e2e8e742f5ce3265445d0540dae2fa4c60976db5
-src-git qmodem https://github.com/FUjr/QModem.git;main
+src-git qmodem https://github.com/NonbiriKumo/QModem.git;main
